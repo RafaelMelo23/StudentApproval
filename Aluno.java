@@ -6,7 +6,7 @@ public class Aluno {
     private String matricula;
     private double[] gradeA1 = new double[4];
     private double[] gradeA2 = new double[4];
-    public double[] individualAverages;
+    private double[] individualAverages;
 
     public void setNameAluno(String nameAluno) {
         this.nomeAluno = nameAluno;
